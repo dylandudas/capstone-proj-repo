@@ -1,7 +1,7 @@
 
 function Nav() {
     return (
-        <nav>
+        <nav className="main-nav">
             <ul>
                 <li><a>Home</a></li>
                 <li><a>About</a></li>
