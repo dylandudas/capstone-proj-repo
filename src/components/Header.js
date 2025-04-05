@@ -3,8 +3,8 @@ import logo from '../assets/logo.jpg'
 
 function Header() {
     return (
-        <header className="header">
-          <img height={90} src={logo} alt="logo"/>  
+        <header>
+          <img id="logo" height={50} src={logo} alt="logo"/>  
           <Nav/>  
         </header>
     )
