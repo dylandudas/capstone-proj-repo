@@ -3,6 +3,7 @@
 function Footer() {
     return (
         <footer>
+            <section className="footer-container">
             <div>
                 <h4>Doormat Navigation</h4>
                 <nav>
@@ -36,6 +37,7 @@ function Footer() {
                     </ul>
                 </nav>
             </div>
+            </section>
         </footer>
     )
 }
