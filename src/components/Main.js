@@ -3,9 +3,8 @@ import SpecialsCard from './SpecialsCard';
 
 function Main() {
     return (
-        <main>
+        <main className="grid">
             <section className="hero">
-                <div className="hero-content">
                     <div className="hero-text">
                         <h1>Little Lemon</h1>
                         <h2>Chicago</h2>
@@ -15,7 +14,6 @@ function Main() {
                     <div className="hero-image">
                         <img id="heroimage" src={guyholding} alt="Restaurant"/>
                     </div>
-                </div>
             </section>
         </main>
     )

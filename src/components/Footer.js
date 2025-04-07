@@ -2,7 +2,7 @@
 
 function Footer() {
     return (
-        <footer>
+        <footer className="grid">
             <section className="footer-container">
             <div>
                 <h4>Doormat Navigation</h4>

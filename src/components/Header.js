@@ -3,7 +3,7 @@ import logo from '../assets/logo.jpg'
 
 function Header() {
     return (
-        <header>
+        <header className="grid">
           <img id="logo" height={50} src={logo} alt="logo"/>  
           <Nav/>  
         </header>

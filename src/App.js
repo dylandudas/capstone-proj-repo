@@ -6,7 +6,7 @@ import Highlights from './components/Highlights';
 
 function App() {
   return (
-    <div id="container">
+    <div className='grid'>
       <Header/>
       <Main/>
       <Highlights/>
