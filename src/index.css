@@ -27,12 +27,17 @@ header {
 
 .highlights {
   grid-column: 1/13;
-  padding-top: 3rem;
+  padding-top: 4rem;
 }
 
-.highlights-header {
-  grid-column: 3/11;
-  align-items: center;
+.highlights h1 {
+  grid-column: 3/7;
+}
+
+.highlights button {
+  grid-column: 9/11;
+  height: 2rem;
+  align-self: center;
 }
 
 .highlights-cards {
@@ -133,7 +138,7 @@ h1 {
   margin: 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 23rem;
-  width: 15rem;
+  justify-content: space-between;
+  height: 24em;
+  width: 12em;
 }
