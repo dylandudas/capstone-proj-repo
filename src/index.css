@@ -43,6 +43,8 @@ header {
 .highlights-cards {
   grid-column: 3/11;
   align-items: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .main-nav {
@@ -74,7 +76,7 @@ header {
 
 main {
   background-color: #495E57;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   grid-column: 1/13;
 }
 
@@ -141,4 +143,46 @@ h1 {
   justify-content: space-between;
   height: 24em;
   width: 12em;
+  grid-column: span 4;
+}
+
+.testimonials {
+  grid-column: 1/13;
+  background-color: #F4CE14;
+  padding: 2rem 0;
+}
+
+.testimonials h2 {
+  grid-column: 3/11;
+  justify-self: center;
+}
+
+.testimonials-container {
+  grid-column: 3/11;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial-box {
+  background-color: #c0c0c0bd;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  width: 22em;
+  height: 15em;
+  margin: 4px;
+}
+
+.about-container {
+  grid-column: 1/13;
+  padding-top: 1.5rem;
+}
+
+.about-text {
+  grid-column: 3/7;
+}
+
+.about-images {
+  grid-column: 7/11;
 }
