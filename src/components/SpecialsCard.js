@@ -1,5 +1,5 @@
 import React from 'react';
-// Optional: Add a CSS file for styling
+import icon from '../assets/bikeicon.jpg';
 
 const SpecialsCard = ({ title, description, image }) => {
     return (
@@ -9,6 +9,7 @@ const SpecialsCard = ({ title, description, image }) => {
                 <h3 className="specials-card-title">{title}</h3>
                 <p className="specials-card-description">{description}</p>
                 <a href="#" className="specials-card-button">Order a Delivery</a>
+                <img src={icon} alt="Delivery Icon" className="specials-card-icon" />
             </div>
         </div>
     );
