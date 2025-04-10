@@ -1,21 +1,14 @@
 import './App.css';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
-import Highlights from './components/Highlights';
-import Testimonials from './components/Testimonials';
-import About from './components/About';
+import {Route, Router, Routes} from 'react-router-dom';
+import Homepage from './pages/Homepage';
+import Reservations from './pages/Reservations';
 
 function App() {
   return (
-    <div className='grid'>
-      <Header/>
-      <Main/>
-      <Highlights/>
-      <Testimonials/>
-      <About/>
-      <Footer/>
-    </div>
+      <Routes>
+        <Route path="/" element={<Homepage/>} />
+        <Route path="/reservations" element={<Reservations/>} />
+      </Routes>
   );
 }
 

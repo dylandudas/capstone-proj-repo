@@ -81,7 +81,7 @@ header {
 
 main {
   background-color: #495E57;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
   grid-column: 1/13;
 }
 
@@ -138,6 +138,22 @@ h1 {
   color: white;
   font-size: 1.5rem;
   margin-top: 0rem;
+}
+
+.reserve-button {
+  background-color: #F4CE14;
+  color: black;
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  margin-top: 2rem;
+}
+
+.buttonlink {
+  text-decoration: none;
+  color: black;
 }
 
 .specials-card {
@@ -216,6 +232,11 @@ h1 {
 
 .about-images {
   grid-column: 7/11;
+}
+
+.res {
+  background-color: #495E57;
+  grid-column: 1/13;
 }
 
 @media  screen and (max-width: 768px) {
